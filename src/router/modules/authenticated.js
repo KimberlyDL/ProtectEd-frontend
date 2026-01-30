@@ -35,6 +35,19 @@ const authenticatedRoutes = [
                 meta: { title: 'Settings' }
             }
         ]
+    },
+
+    {
+        path: '/settings',
+        component: () => import('@/layouts/UserDashboardLayout.vue'),
+        children: [
+            {
+                path: '',
+                name: 'settings',
+                component: () => import('@/views/dashboard/Settings.vue'),
+                meta: { requiresAuth: true, title: 'Account Settings' }
+            }
+        ]
     }
 ]
 
