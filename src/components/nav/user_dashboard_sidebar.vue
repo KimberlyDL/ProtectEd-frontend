@@ -218,10 +218,12 @@ onMounted(() => {
                 <!-- Continue Learning -->
                 <section>
                     <div v-if="isFull || isMobileShown"
-                        class="px-2 text-[11px] uppercase tracking-wide text-kaitoke-green-500 dark:text-kaitoke-green-400">
+                        class="px-2 text-[11px] uppercase tracking-wide text-rose-600 dark:text-rose-400">
                         Continue Learning
                     </div>
-                    <div v-else class="my-2 border-t border-sun-200 dark:border-abyss-700"></div>
+                    <div v-else class="flex items-center justify-center my-3">
+                        <div class="h-1.5 w-1.5 rounded-full bg-sun-300 dark:bg-abyss-600"></div>
+                    </div>
 
                     <template>
                         <button v-for="module in modules" :key="'module-' + module.id" @click="goModule(module.id)"
@@ -230,7 +232,7 @@ onMounted(() => {
                                 'hover:bg-sun-100 dark:hover:bg-abyss-800',
                                 'text-left',
                                 route.params.id == module.id
-                                    ? 'bg-kaitoke-green-100 text-kaitoke-green-700 dark:bg-kaitoke-green-900/30 dark:text-kaitoke-green-300'
+                                    ? 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-300'
                                     : ''
                             ]">
                             <div :class="[
@@ -257,10 +259,12 @@ onMounted(() => {
                 <!-- Learning Paths -->
                 <section>
                     <div v-if="isFull || isMobileShown"
-                        class="px-2 text-[11px] uppercase tracking-wide text-kaitoke-green-500 dark:text-kaitoke-green-400">
+                        class="px-2 text-[11px] uppercase tracking-wide text-rose-600 dark:text-rose-400">
                         Learning Paths
                     </div>
-                    <div v-else class="my-2 border-t border-sun-200 dark:border-abyss-700"></div>
+                    <div v-else class="flex items-center justify-center my-3">
+                        <div class="h-1.5 w-1.5 rounded-full bg-sun-300 dark:bg-abyss-600"></div>
+                    </div>
 
                     <template>
                         <button v-for="path in myLearningPaths" :key="'path-' + path.id" @click="goPath(path.id)"
@@ -292,7 +296,7 @@ onMounted(() => {
                 <!-- Engagement -->
                 <section>
                     <div v-if="isFull || isMobileShown"
-                        class="px-2 text-[11px] uppercase tracking-wide text-kaitoke-green-500 dark:text-kaitoke-green-400">
+                        class="px-2 text-[11px] uppercase tracking-wide text-rose-600 dark:text-rose-400">
                         Engagement
                     </div>
 

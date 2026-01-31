@@ -15,16 +15,16 @@
                     </clipPath>
 
                     <linearGradient id="grad-lg" x1="0" x2="1" y1="1" y2="0">
-                        <stop offset="0%" :stop-color="'var(--color-kaitoke-green-500)'" />
-                        <stop offset="100%" :stop-color="'var(--color-electric-lime-400)'" />
+                        <stop offset="0%" :stop-color="'var(--color-lavender-500)'" />
+                        <stop offset="100%" :stop-color="'var(--color-rose-400)'" />
                     </linearGradient>
                     <linearGradient id="grad-sm" x1="0" x2="1" y1="1" y2="0">
-                        <stop offset="0%" :stop-color="'var(--color-sun-400)'" />
-                        <stop offset="100%" :stop-color="'var(--color-electric-lime-300)'" />
+                        <stop offset="0%" :stop-color="'var(--color-rose-300)'" />
+                        <stop offset="100%" :stop-color="'var(--color-mint-300)'" />
                     </linearGradient>
                     <linearGradient id="grad-accent" x1="0" x2="1" y1="1" y2="0">
-                        <stop offset="0%" :stop-color="'var(--color-kaitoke-green-600)'" />
-                        <stop offset="100%" :stop-color="'var(--color-electric-lime-500)'" />
+                        <stop offset="0%" :stop-color="'var(--color-lavender-600)'" />
+                        <stop offset="100%" :stop-color="'var(--color-rose-500)'" />
                     </linearGradient>
 
                     <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">

@@ -2,17 +2,17 @@
     <AuthShellSvg page-title="Login" :hero-image="hero" :artist="artist">
         <div class="w-full max-w-md mx-auto">
             <!-- Header Section -->
-            <div class="mb-8 text-center sm:text-left">
+            <div class="mb-8">
                 <h1 class="text-3xl font-heading font-bold text-abyss-900 dark:text-platinum-50 mb-2">
                     Welcome Back
                 </h1>
-                <p class="text-platinum-600 dark:text-platinum-400">
-                    Sign in to access your organization's document hub.
+                <p class="text-platinum-600 dark:text-platinum-400 text-sm">
+                    Sign in to your account and continue your learning journey.
                 </p>
             </div>
 
             <!-- Main Form Card -->
-            <div class="bg-white dark:bg-abyss-800">
+            <div class="bg-white dark:bg-abyss-800 rounded-2xl shadow-sm border border-lavender-100 dark:border-abyss-700">
                 <form @submit.prevent="handleLogin" class="space-y-5">
 
                     <!-- Email Input -->
@@ -38,7 +38,7 @@
                                 Password
                             </label>
                             <router-link :to="{ name: 'forgotPassword' }"
-                                class="text-xs font-medium text-kaitoke-green-600 dark:text-kaitoke-green-400 hover:text-kaitoke-green-700 hover:underline transition-colors">
+                                class="text-xs font-medium text-rose-600 dark:text-rose-400 hover:text-rose-700 hover:underline transition-colors">
                                 Forgot password?
                             </router-link>
                         </div>
@@ -54,8 +54,8 @@
 
                     <!-- Login Button -->
                     <button type="submit" :disabled="isLoading || isGoogleLoading"
-                        class="w-full py-3 px-4 bg-kaitoke-green-600 text-white font-semibold rounded-lg 
-                               hover:bg-kaitoke-green-700 focus:ring-4 focus:ring-kaitoke-green-500/30
+                        class="w-full py-3 px-4 bg-gradient-to-r from-lavender-600 to-rose-500 text-white font-semibold rounded-lg 
+                               hover:from-lavender-700 hover:to-rose-600 focus:ring-4 focus:ring-rose-400/30
                                disabled:opacity-50 disabled:cursor-not-allowed
                                transition-all duration-200 shadow-md hover:shadow-lg flex items-center justify-center gap-2">
                         <span v-if="!isLoading">Sign In</span>
@@ -117,9 +117,9 @@
 
             <!-- Footer -->
             <p class="mt-8 text-center text-sm text-platinum-600 dark:text-platinum-400">
-                Don’t have an account?
+                Don't have an account?
                 <router-link :to="{ name: 'signup' }"
-                    class="text-kaitoke-green-600 dark:text-kaitoke-green-400 font-semibold hover:underline decoration-2 underline-offset-2 transition-all">
+                    class="text-rose-600 dark:text-rose-400 font-semibold hover:underline decoration-2 underline-offset-2 transition-all">
                     Create an account
                 </router-link>
             </p>

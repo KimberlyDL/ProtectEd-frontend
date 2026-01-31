@@ -2,18 +2,18 @@
     <AuthShellSvg page-title="Sign Up" :hero-image="hero" :artist="artist">
         <div class="w-full max-w-lg mx-auto">
             <!-- Header Section -->
-            <div class="mb-8 text-center sm:text-left">
+            <div class="mb-8">
                 <h1 class="text-3xl font-heading font-bold text-abyss-900 dark:text-platinum-50 mb-2">
                     Create Account
                 </h1>
-                <p class="text-platinum-600 dark:text-platinum-400">
-                    Store documents, manage approvals, and collaborate effortlessly.
+                <p class="text-platinum-600 dark:text-platinum-400 text-sm">
+                    Join ProtectEd and start your educational journey today.
                 </p>
             </div>
 
             <!-- Main Form Card -->
             <div
-                class="bg-white dark:bg-abyss-800">
+                class="bg-white dark:bg-abyss-800 rounded-2xl shadow-sm border border-lavender-100 dark:border-abyss-700">
                 <form @submit.prevent="handleSignUp" class="space-y-5">
 
                     <!-- Email -->
@@ -76,19 +76,19 @@
                         <label for="terms" class="text-sm text-platinum-600 dark:text-platinum-300">
                             I agree to the
                             <a href="#"
-                                class="text-kaitoke-green-600 dark:text-kaitoke-green-400 hover:underline font-medium">Terms
+                                class="text-rose-600 dark:text-rose-400 hover:underline font-medium">Terms
                                 of Service</a>
                             and
                             <a href="#"
-                                class="text-kaitoke-green-600 dark:text-kaitoke-green-400 hover:underline font-medium">Privacy
+                                class="text-rose-600 dark:text-rose-400 hover:underline font-medium">Privacy
                                 Policy</a>
                         </label>
                     </div>
 
                     <!-- Submit Button -->
                     <button type="submit" :disabled="isLoading || isGoogleLoading"
-                        class="w-full py-3 px-4 bg-kaitoke-green-600 text-white font-semibold rounded-lg 
-                               hover:bg-kaitoke-green-700 focus:ring-4 focus:ring-kaitoke-green-500/30
+                        class="w-full py-3 px-4 bg-gradient-to-r from-lavender-600 to-rose-500 text-white font-semibold rounded-lg 
+                               hover:from-lavender-700 hover:to-rose-600 focus:ring-4 focus:ring-rose-400/30
                                disabled:opacity-50 disabled:cursor-not-allowed
                                transition-all duration-200 shadow-md hover:shadow-lg flex items-center justify-center gap-2">
                         <span v-if="!isLoading">Create Account</span>
@@ -151,7 +151,7 @@
                 <p class="mt-8 text-center text-sm text-platinum-600 dark:text-platinum-400">
                     Already have an account?
                     <router-link :to="{ name: 'login' }"
-                        class="text-kaitoke-green-600 dark:text-kaitoke-green-400 font-semibold hover:underline decoration-2 underline-offset-2 transition-all">
+                        class="text-rose-600 dark:text-rose-400 font-semibold hover:underline decoration-2 underline-offset-2 transition-all">
                         Sign in
                     </router-link>
                 </p>

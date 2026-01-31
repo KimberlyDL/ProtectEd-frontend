@@ -240,6 +240,46 @@
   --color-platinum-800: #727073;
   --color-platinum-900: #615e62;
   --color-platinum-950: #4f4d50;
+
+  /* --- PASTEL VIOLET-PINK THEME (VAWC & GAD Departments) --- */
+  /* Soft Lavender Violet (Primary) */
+  --color-lavender-50: #faf7ff;
+  --color-lavender-100: #f3ebff;
+  --color-lavender-200: #e8d8ff;
+  --color-lavender-300: #d9bcff;
+  --color-lavender-400: #c699ff;
+  --color-lavender-500: #b380ff;
+  --color-lavender-600: #9d66ff;
+  --color-lavender-700: #8a4dd9;
+  --color-lavender-800: #6d3bb3;
+  --color-lavender-900: #5a2d8f;
+  --color-lavender-950: #3f1a61;
+
+  /* Soft Rose Pink (Secondary/Accent) */
+  --color-rose-50: #fff7fa;
+  --color-rose-100: #ffeff5;
+  --color-rose-200: #ffd9e8;
+  --color-rose-300: #ffb8d6;
+  --color-rose-400: #ff92c2;
+  --color-rose-500: #ff6db0;
+  --color-rose-600: #ff4a99;
+  --color-rose-700: #e6287f;
+  --color-rose-800: #cc1f66;
+  --color-rose-900: #b3184f;
+  --color-rose-950: #7a0f33;
+
+  /* Soft Mint (Supporting accent for balance) */
+  --color-mint-50: #f0fef9;
+  --color-mint-100: #d9fef3;
+  --color-mint-200: #b3fde8;
+  --color-mint-300: #80fce0;
+  --color-mint-400: #4df8d9;
+  --color-mint-500: #2cecc8;
+  --color-mint-600: #1cd4ab;
+  --color-mint-700: #17ad8c;
+  --color-mint-800: #158a72;
+  --color-mint-900: #126d5b;
+  --color-mint-950: #0a4639;
 }
 
 @import "flowbite-vue/index.css";

@@ -1,9 +1,9 @@
 <template>
     <div class="space-y-8">
         <!-- Welcome Header -->
-        <div class="bg-gradient-to-r from-kaitoke-green-500 to-emerald-500 rounded-xl p-8 text-white shadow-lg">
+        <div class="bg-gradient-to-r from-lavender-500 to-rose-400 rounded-2xl p-8 text-white shadow-lg">
             <h1 class="text-4xl font-bold mb-2">Welcome back, {{ userFirstName }}! 👋</h1>
-            <p class="text-kaitoke-green-100 text-lg">You're making great progress on your learning journey. Keep up the momentum!</p>
+            <p class="text-rose-50 text-lg">You're making great progress on your learning journey. Keep up the momentum!</p>
         </div>
 
         <!-- Quick Stats -->
@@ -22,14 +22,14 @@
                 </div>
             </div>
 
-            <div class="bg-white dark:bg-abyss-800 rounded-lg p-6 border border-kaitoke-green-200 dark:border-kaitoke-green-900">
+            <div class="bg-white dark:bg-abyss-800 rounded-lg p-6 border border-rose-200 dark:border-rose-900">
                 <div class="flex items-center justify-between">
                     <div>
                         <p class="text-platinum-600 dark:text-platinum-400 text-sm font-medium">Modules Completed</p>
                         <p class="text-3xl font-bold text-abyss-900 dark:text-platinum-50 mt-2">{{ stats.modulesCompleted }}</p>
                     </div>
-                    <div class="w-12 h-12 bg-kaitoke-green-100 dark:bg-kaitoke-green-900/30 rounded-lg flex items-center justify-center">
-                        <svg class="w-6 h-6 text-kaitoke-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-12 h-12 bg-rose-100 dark:bg-rose-900/30 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
@@ -90,12 +90,12 @@
                                 <span class="text-platinum-600 dark:text-platinum-400">Progress</span>
                                 <span class="font-medium text-abyss-900 dark:text-platinum-50">{{ currentModule.progress }}%</span>
                             </div>
-                            <div class="w-full h-2 bg-sun-200 dark:bg-abyss-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-gradient-to-r from-kaitoke-green-500 to-emerald-500 rounded-full transition-all duration-300" :style="{ width: currentModule.progress + '%' }"></div>
+                            <div class="w-full h-2 bg-rose-100 dark:bg-abyss-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-lavender-500 to-rose-400 rounded-full transition-all duration-300" :style="{ width: currentModule.progress + '%' }"></div>
                             </div>
                         </div>
 
-                        <button class="w-full mt-6 px-6 py-3 bg-kaitoke-green-600 hover:bg-kaitoke-green-700 text-white font-semibold rounded-lg transition shadow-md hover:shadow-lg">
+                        <button class="w-full mt-6 px-6 py-3 bg-gradient-to-r from-lavender-600 to-rose-500 hover:from-lavender-700 hover:to-rose-600 text-white font-semibold rounded-lg transition shadow-md hover:shadow-lg">
                             Continue Module →
                         </button>
                     </div>
@@ -105,7 +105,7 @@
                 <div class="bg-white dark:bg-abyss-800 rounded-lg p-8 border border-sun-200 dark:border-abyss-700">
                     <div class="flex items-center justify-between mb-6">
                         <h2 class="text-2xl font-bold text-abyss-900 dark:text-platinum-50">Your Learning Paths</h2>
-                        <router-link to="#" class="text-kaitoke-green-600 dark:text-kaitoke-green-400 hover:text-kaitoke-green-700 dark:hover:text-kaitoke-green-300 text-sm font-medium">
+                        <router-link to="#" class="text-rose-600 dark:text-rose-400 hover:text-rose-700 dark:hover:text-rose-300 text-sm font-medium">
                             View All →
                         </router-link>
                     </div>
@@ -116,8 +116,8 @@
                                 <h3 class="font-bold text-abyss-900 dark:text-platinum-50">{{ path.name }}</h3>
                                 <span class="text-sm font-medium text-platinum-600 dark:text-platinum-400">{{ path.progress }}%</span>
                             </div>
-                            <div class="w-full h-1.5 bg-sun-200 dark:bg-abyss-700 rounded-full overflow-hidden">
-                                <div class="h-full bg-gradient-to-r from-kaitoke-green-500 to-emerald-500" :style="{ width: path.progress + '%' }"></div>
+                            <div class="w-full h-1.5 bg-rose-100 dark:bg-abyss-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-lavender-500 to-rose-400" :style="{ width: path.progress + '%' }"></div>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
             <!-- Right Sidebar: Achievements & Leaderboard -->
             <div class="space-y-8">
                 <!-- Achievements -->
-                <div class="bg-white dark:bg-abyss-800 rounded-lg p-6 border border-sun-200 dark:border-abyss-700">
+                <div class="bg-white dark:bg-abyss-800 rounded-lg p-6 border border-lavender-200 dark:border-abyss-700">
                     <h3 class="text-xl font-bold text-abyss-900 dark:text-platinum-50 mb-4">Achievements</h3>
 
                     <div class="grid grid-cols-3 gap-3">
@@ -185,31 +185,31 @@
                             <span class="text-sm font-bold text-sun-600 dark:text-sun-400 flex-shrink-0">{{ leaderEntry.points }}</span>
                         </div>
 
-                        <button class="w-full mt-4 px-4 py-2 border border-sun-200 dark:border-abyss-600 text-abyss-900 dark:text-platinum-200 text-sm font-medium rounded-lg hover:bg-sun-50 dark:hover:bg-abyss-700 transition">
+                        <button class="w-full mt-4 px-4 py-2 border border-rose-200 dark:border-abyss-600 text-abyss-900 dark:text-platinum-200 text-sm font-medium rounded-lg hover:bg-rose-50 dark:hover:bg-abyss-700 transition">
                             View Full Leaderboard
                         </button>
                     </div>
                 </div>
 
                 <!-- Resources -->
-                <div class="bg-gradient-to-b from-kaitoke-green-50 to-emerald-50 dark:from-kaitoke-green-900/20 dark:to-emerald-900/20 rounded-lg p-6 border border-kaitoke-green-200 dark:border-kaitoke-green-800">
+                <div class="bg-gradient-to-b from-lavender-50 to-rose-50 dark:from-lavender-900/20 dark:to-rose-900/20 rounded-lg p-6 border border-lavender-200 dark:border-lavender-800">
                     <h3 class="text-xl font-bold text-abyss-900 dark:text-platinum-50 mb-4">Quick Resources</h3>
 
                     <div class="space-y-2">
-                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-kaitoke-green-100 dark:hover:bg-kaitoke-green-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
-                            <svg class="w-4 h-4 text-kaitoke-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-lavender-100 dark:hover:bg-lavender-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
+                            <svg class="w-4 h-4 text-lavender-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             Learning Guide
                         </a>
-                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-kaitoke-green-100 dark:hover:bg-kaitoke-green-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
-                            <svg class="w-4 h-4 text-kaitoke-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-lavender-100 dark:hover:bg-lavender-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
+                            <svg class="w-4 h-4 text-lavender-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             Support Chat
                         </a>
-                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-kaitoke-green-100 dark:hover:bg-kaitoke-green-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
-                            <svg class="w-4 h-4 text-kaitoke-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="flex items-center gap-2 p-2 rounded-lg hover:bg-lavender-100 dark:hover:bg-lavender-900/30 transition text-sm text-abyss-900 dark:text-platinum-200">
+                            <svg class="w-4 h-4 text-lavender-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                             </svg>
                             Settings
