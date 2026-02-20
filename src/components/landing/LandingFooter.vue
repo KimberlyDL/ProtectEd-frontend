@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-gray-900 text-white">
+  <footer class="bg-abyss-900 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="grid md:grid-cols-4 gap-12 mb-12">
         <!-- Brand Column -->
         <div class="space-y-4">
           <div class="flex items-center gap-2">
-            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-calm-lavender-600 to-safety-teal-500 flex items-center justify-center">
               <span class="text-white font-bold">P</span>
             </div>
             <span class="font-bold text-xl">ProtectED</span>
