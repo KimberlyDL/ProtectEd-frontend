@@ -1,15 +1,19 @@
 <template>
-  <section id="impact" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-    <div class="max-w-7xl mx-auto">
+  <section id="impact" class="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-6xl mx-auto">
       <!-- Section Header -->
-      <div class="text-center space-y-4 mb-16">
+      <div class="text-center space-y-6 mb-16">
         <h2 class="text-5xl sm:text-6xl font-black text-abyss-900">
-          Backed by Science & Technology
+          Smarter Support for a<br />
+          <span class="text-calm-lavender-600">Safer Community</span>
         </h2>
+        <p class="text-xl text-platinum-700 max-w-3xl mx-auto">
+          We use intelligent technology to ensure no one is left behind. ProtectED's AI helps educators understand community-wide trends, identifying where more support or education is needed most.
+        </p>
       </div>
 
       <!-- Main Content Grid -->
-      <div class="grid md:grid-cols-2 gap-16 items-center">
+      <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- Left Content -->
         <div class="space-y-6">
           <p class="text-lg text-platinum-700 leading-relaxed">

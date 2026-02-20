@@ -1,18 +1,18 @@
 <template>
-  <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-platinum-50">
-    <div class="max-w-7xl mx-auto">
+  <section id="about" class="py-24 px-4 sm:px-6 lg:px-8 bg-platinum-50">
+    <div class="max-w-6xl mx-auto">
       <!-- Section Header -->
-      <div class="text-center space-y-4 mb-16">
-        <h2 class="text-5xl sm:text-6xl font-black text-abyss-900 mb-6">
-          Built for Impact
+      <div class="text-center space-y-6 mb-16">
+        <h2 class="text-5xl sm:text-6xl font-black text-abyss-900">
+          <span class="text-calm-lavender-600">Built for Impact</span>
         </h2>
-        <p class="text-xl text-platinum-700 max-w-2xl mx-auto">
-          ProtectED serves students, educators, and organizations committed to safer, more informed communities.
+        <p class="text-xl text-platinum-700 max-w-3xl mx-auto">
+          ProtectED serves students, educators, and organizations committed to creating safer, more informed communities.
         </p>
       </div>
 
       <!-- Who It's For Grid -->
-      <div class="grid md:grid-cols-2 gap-12 mb-16">
+      <div class="grid md:grid-cols-2 gap-16 mb-16">
         <!-- For Schools -->
         <div class="space-y-6">
           <div class="text-5xl">🎓</div>

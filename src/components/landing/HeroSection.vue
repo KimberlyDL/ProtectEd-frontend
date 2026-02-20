@@ -1,60 +1,50 @@
 <template>
-  <section class="relative overflow-hidden bg-platinum-50 pt-16 pb-20 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto text-center space-y-12">
-      <!-- Hero Headline -->
-      <div class="space-y-6">
-        <h1 class="text-6xl sm:text-7xl lg:text-8xl font-black text-abyss-900 leading-tight">
-          Learn. Grow.<br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-calm-lavender-600 to-safety-teal-500">Protect.</span>
-        </h1>
-        <p class="text-xl sm:text-2xl text-platinum-700 max-w-3xl mx-auto leading-relaxed">
-          Gamified education for Gender Awareness and Violence Prevention. Trusted by 1000+ students and organizations.
-        </p>
-      </div>
+  <section class="bg-platinum-50 pt-20 pb-24 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <!-- Two Column: Content + Visual -->
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        
+        <!-- Left: Content -->
+        <div class="space-y-8">
+          <div class="space-y-6">
+            <h1 class="text-5xl md:text-6xl font-black text-abyss-900 leading-tight">
+              Level Up Your Knowledge.<br />
+              <span class="text-calm-lavender-600">Power Up Your Safety.</span>
+            </h1>
+            
+            <p class="text-lg text-platinum-700 leading-relaxed">
+              Welcome to ProtectED, the interactive playground where GAD and VAWC education come to life. Discover a safer way to learn through quests, challenges, and AI-driven insights.
+            </p>
+          </div>
 
-      <!-- Role Selection / CTA -->
-      <div class="space-y-6">
-        <p class="text-sm font-semibold text-platinum-600 uppercase tracking-widest">Get started as a...</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-          <button class="px-8 py-3 bg-calm-lavender-600 text-white font-bold rounded-full hover:bg-calm-lavender-700 hover:shadow-lg transition-all">
-            Student
+          <!-- Primary CTA -->
+          <button class="px-8 py-4 bg-calm-lavender-600 hover:bg-calm-lavender-700 text-white font-bold rounded-full text-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 inline-flex items-center gap-2">
+            Start Your Adventure
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </button>
-          <button class="px-8 py-3 bg-safety-teal-500 text-white font-bold rounded-full hover:bg-safety-teal-600 hover:shadow-lg transition-all">
-            Educator
-          </button>
-          <button class="px-8 py-3 bg-azure-blue-600 text-white font-bold rounded-full hover:bg-azure-blue-700 hover:shadow-lg transition-all">
-            Organization
-          </button>
-          <button class="px-8 py-3 border-2 border-platinum-300 text-abyss-900 font-bold rounded-full hover:bg-platinum-100 transition-all">
-            School Leader
-          </button>
-        </div>
-      </div>
 
-      <!-- Hero Image/Illustration Placeholder -->
-      <div class="relative mt-16 h-96 sm:h-[28rem] rounded-3xl bg-gradient-to-br from-calm-lavender-100 to-safety-teal-100 border-4 border-calm-lavender-200/50 flex items-center justify-center overflow-hidden">
-        <div class="text-center">
-          <div class="text-8xl mb-4">🎮</div>
-          <p class="text-abyss-700 font-bold text-xl">Add your hero illustration here</p>
-          <p class="text-platinum-600 mt-2">SVG, PNG, or any visual asset</p>
+          <!-- Social Proof -->
+          <div class="flex items-center gap-3 text-sm text-platinum-700">
+            <div class="flex -space-x-2">
+              <div class="w-8 h-8 rounded-full bg-calm-lavender-200 flex items-center justify-center text-xs font-bold text-calm-lavender-600">S</div>
+              <div class="w-8 h-8 rounded-full bg-safety-teal-200 flex items-center justify-center text-xs font-bold text-safety-teal-600">T</div>
+              <div class="w-8 h-8 rounded-full bg-azure-blue-200 flex items-center justify-center text-xs font-bold text-azure-blue-600">U</div>
+            </div>
+            <span class="font-semibold">1000+ students & organizations trust us</span>
+          </div>
         </div>
-      </div>
 
-      <!-- Social Proof -->
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-8 pt-8 border-t border-platinum-200">
-        <div class="text-center">
-          <p class="text-4xl font-black text-calm-lavender-600">1000+</p>
-          <p class="text-platinum-700 font-semibold">Active Learners</p>
-        </div>
-        <div class="hidden sm:block w-px h-12 bg-platinum-200"></div>
-        <div class="text-center">
-          <p class="text-4xl font-black text-safety-teal-600">50+</p>
-          <p class="text-platinum-700 font-semibold">Schools & Orgs</p>
-        </div>
-        <div class="hidden sm:block w-px h-12 bg-platinum-200"></div>
-        <div class="text-center">
-          <p class="text-4xl font-black text-azure-blue-600">99%</p>
-          <p class="text-platinum-700 font-semibold">Satisfaction</p>
+        <!-- Right: Hero Visual -->
+        <div class="relative h-96 flex items-center justify-center">
+          <div class="w-full h-full rounded-3xl bg-gradient-to-br from-calm-lavender-100 to-safety-teal-100 border-2 border-calm-lavender-200 flex flex-col items-center justify-center gap-4">
+            <div class="text-8xl">🎮</div>
+            <div class="text-center">
+              <p class="text-abyss-900 font-bold text-xl">Add Your Hero/Mascot</p>
+              <p class="text-sm text-platinum-700">SVG or image illustration</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
