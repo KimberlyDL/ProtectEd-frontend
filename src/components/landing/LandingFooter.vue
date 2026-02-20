@@ -1,49 +1,36 @@
 <template>
   <footer class="bg-abyss-900 text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div class="grid md:grid-cols-4 gap-12 mb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid md:grid-cols-3 gap-12 mb-12">
         <!-- Brand Column -->
         <div class="space-y-4">
           <div class="flex items-center gap-2">
             <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-calm-lavender-600 to-safety-teal-500 flex items-center justify-center">
               <span class="text-white font-bold">P</span>
             </div>
-            <span class="font-bold text-xl">ProtectED</span>
+            <span class="font-bold text-lg">ProtectED</span>
           </div>
           <p class="text-white/70 text-sm leading-relaxed">
-            Empowering educators and organizations with gamified GAD and VAWC education.
+            Empowering educators and organizations with gamified gender awareness and violence prevention education.
           </p>
-        </div>
-
-        <!-- Quick Links -->
-        <div>
-          <h4 class="font-bold mb-4">Platform</h4>
-          <ul class="space-y-2 text-white/70 text-sm">
-            <li><a href="#" class="hover:text-white transition-colors">Learning Modules</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Leaderboards</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Achievements</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Dashboard</a></li>
-          </ul>
         </div>
 
         <!-- Resources -->
         <div>
-          <h4 class="font-bold mb-4">Resources</h4>
+          <h4 class="font-semibold mb-4">Resources</h4>
           <ul class="space-y-2 text-white/70 text-sm">
-            <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
             <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
             <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
           </ul>
         </div>
 
         <!-- Legal -->
         <div>
-          <h4 class="font-bold mb-4">Legal</h4>
+          <h4 class="font-semibold mb-4">Legal</h4>
           <ul class="space-y-2 text-white/70 text-sm">
             <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
             <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
-            <li><a href="#" class="hover:text-white transition-colors">Cookie Policy</a></li>
             <li><a href="#" class="hover:text-white transition-colors">Accessibility</a></li>
           </ul>
         </div>

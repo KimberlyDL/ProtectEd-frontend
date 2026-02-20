@@ -3,80 +3,66 @@
     <div class="max-w-7xl mx-auto">
       <!-- Section Header -->
       <div class="text-center space-y-4 mb-16">
-        <h2 class="text-4xl sm:text-5xl font-black text-abyss-900">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-calm-lavender-600 to-safety-teal-500">Built for Impact</span>
+        <h2 class="text-5xl sm:text-6xl font-black text-abyss-900 mb-6">
+          Built for Impact
         </h2>
-        <p class="text-lg text-platinum-700 max-w-2xl mx-auto">
-          ProtectED serves students, educators, and organizations committed to creating safer, more informed communities.
+        <p class="text-xl text-platinum-700 max-w-2xl mx-auto">
+          ProtectED serves students, educators, and organizations committed to safer, more informed communities.
         </p>
       </div>
 
       <!-- Who It's For Grid -->
-      <div class="grid md:grid-cols-2 gap-8 mb-16">
-        <!-- For Educational Institutions -->
-        <div class="group relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-calm-lavender-200/20 to-safety-teal-200/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-          <div class="relative bg-platinum-50 rounded-2xl border-2 border-calm-lavender-200 p-8 hover:border-calm-lavender-400 transition-all">
-            <div class="h-16 w-16 rounded-xl bg-gradient-to-br from-calm-lavender-600 to-safety-teal-500 mb-6 flex items-center justify-center text-white text-3xl">
-              🎓
-            </div>
-            <h3 class="text-2xl font-bold text-abyss-900 mb-4">For Educational Institutions</h3>
-            <p class="text-platinum-700 leading-relaxed">
-              Provide students with a safe, gamified environment to explore GAD and sexual health education that is age-appropriate and fun.
-            </p>
-
-            <ul class="mt-6 space-y-3">
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-calm-lavender-600 font-bold">✓</span> Curriculum-aligned content
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-calm-lavender-600 font-bold">✓</span> Student engagement analytics
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-calm-lavender-600 font-bold">✓</span> Teacher dashboard & resources
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-calm-lavender-600 font-bold">✓</span> Certification programs
-              </li>
-            </ul>
-
-            <button class="mt-6 w-full px-6 py-3 bg-calm-lavender-600 text-white font-semibold rounded-lg hover:shadow-lg transition-all">
-              For Schools
-            </button>
-          </div>
+      <div class="grid md:grid-cols-2 gap-12 mb-16">
+        <!-- For Schools -->
+        <div class="space-y-6">
+          <div class="text-5xl">🎓</div>
+          <h3 class="text-2xl font-bold text-abyss-900">For Schools</h3>
+          <p class="text-platinum-700 leading-relaxed">
+            Provide safe, gamified education for GAD and sexual health that is age-appropriate and curriculum-aligned.
+          </p>
+          <ul class="space-y-2">
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-calm-lavender-600 font-bold">✓</span>
+              <span>Curriculum-aligned content</span>
+            </li>
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-calm-lavender-600 font-bold">✓</span>
+              <span>Student engagement tracking</span>
+            </li>
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-calm-lavender-600 font-bold">✓</span>
+              <span>Teacher dashboard & reports</span>
+            </li>
+          </ul>
+          <button class="px-6 py-3 w-full bg-calm-lavender-600 text-white font-semibold rounded-lg hover:bg-calm-lavender-700 transition-all">
+            For Schools
+          </button>
         </div>
 
         <!-- For Organizations -->
-        <div class="group relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-safety-teal-200/20 to-calm-lavender-200/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-          <div class="relative bg-platinum-50 rounded-2xl border-2 border-safety-teal-200 p-8 hover:border-safety-teal-400 transition-all">
-            <div class="h-16 w-16 rounded-xl bg-gradient-to-br from-safety-teal-500 to-calm-lavender-600 mb-6 flex items-center justify-center text-white text-3xl">
-              🤝
-            </div>
-            <h3 class="text-2xl font-bold text-abyss-900 mb-4">For Organizations</h3>
-            <p class="text-platinum-700 leading-relaxed">
-              Boost member participation in VAWC prevention programs through interactive workshops and data-driven engagement.
-            </p>
-
-            <ul class="mt-6 space-y-3">
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-safety-teal-600 font-bold">✓</span> Custom workshop programs
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-safety-teal-600 font-bold">✓</span> Member engagement tracking
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-safety-teal-600 font-bold">✓</span> Impact measurement tools
-              </li>
-              <li class="flex items-center gap-2 text-platinum-700">
-                <span class="text-safety-teal-600 font-bold">✓</span> Community reporting
-              </li>
-            </ul>
-
-            <button class="mt-6 w-full px-6 py-3 bg-safety-teal-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all">
-              For Organizations
-            </button>
-          </div>
+        <div class="space-y-6">
+          <div class="text-5xl">🤝</div>
+          <h3 class="text-2xl font-bold text-abyss-900">For Organizations</h3>
+          <p class="text-platinum-700 leading-relaxed">
+            Boost member participation in VAWC prevention through interactive workshops and data-driven engagement.
+          </p>
+          <ul class="space-y-2">
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-safety-teal-600 font-bold">✓</span>
+              <span>Custom workshop programs</span>
+            </li>
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-safety-teal-600 font-bold">✓</span>
+              <span>Member engagement tracking</span>
+            </li>
+            <li class="flex gap-3 text-platinum-700">
+              <span class="text-safety-teal-600 font-bold">✓</span>
+              <span>Impact measurement tools</span>
+            </li>
+          </ul>
+          <button class="px-6 py-3 w-full bg-safety-teal-500 text-white font-semibold rounded-lg hover:bg-safety-teal-600 transition-all">
+            For Organizations
+          </button>
         </div>
       </div>
 
