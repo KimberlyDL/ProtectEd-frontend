@@ -64,27 +64,27 @@ const handleClose = () => {
 const themeConfig = {
     success: {
         icon: CheckCircle2,
-        iconColor: 'text-neon-pink-600 dark:text-neon-pink-400',
-        iconBg: 'bg-neon-pink-50 dark:bg-neon-pink-900/30',
-        barColor: 'bg-neon-pink-600'
+        iconColor: 'text-green-600 dark:text-green-400',
+        iconBg: 'bg-green-50 dark:bg-green-900/30',
+        barColor: 'bg-green-600'
     },
     error: {
         icon: AlertCircle,
-        iconColor: 'text-vawc-orange-600 dark:text-vawc-orange-400',
-        iconBg: 'bg-vawc-orange-50 dark:bg-vawc-orange-900/30',
-        barColor: 'bg-vawc-orange-600'
+        iconColor: 'text-red-600 dark:text-red-400',
+        iconBg: 'bg-red-50 dark:bg-red-900/30',
+        barColor: 'bg-red-600'
     },
     warning: {
         icon: AlertTriangle,
-        iconColor: 'text-safety-teal-600 dark:text-safety-teal-400',
-        iconBg: 'bg-safety-teal-50 dark:bg-safety-teal-900/30',
-        barColor: 'bg-safety-teal-600'
+        iconColor: 'text-yellow-600 dark:text-yellow-400',
+        iconBg: 'bg-yellow-50 dark:bg-yellow-900/30',
+        barColor: 'bg-yellow-600'
     },
     info: {
         icon: Info,
-        iconColor: 'text-calm-lavender-600 dark:text-calm-lavender-400',
-        iconBg: 'bg-calm-lavender-50 dark:bg-calm-lavender-900/30',
-        barColor: 'bg-calm-lavender-600'
+        iconColor: 'text-blue-600 dark:text-blue-400',
+        iconBg: 'bg-blue-50 dark:bg-blue-900/30',
+        barColor: 'bg-blue-600'
     }
 }
 
