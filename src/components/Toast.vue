@@ -65,25 +65,25 @@ const themeConfig = {
     success: {
         icon: CheckCircle2,
         iconColor: 'text-neon-pink-600 dark:text-neon-pink-400',
-        iconBg: 'bg-neon-pink-50 dark:bg-neon-pink-900/20',
-        barColor: 'bg-neon-pink-500'
+        iconBg: 'bg-neon-pink-50 dark:bg-neon-pink-900/30',
+        barColor: 'bg-neon-pink-600'
     },
     error: {
         icon: AlertCircle,
-        iconColor: 'text-safety-teal-600 dark:text-safety-teal-400',
-        iconBg: 'bg-safety-teal-50 dark:bg-safety-teal-900/20',
-        barColor: 'bg-safety-teal-600'
+        iconColor: 'text-vawc-orange-600 dark:text-vawc-orange-400',
+        iconBg: 'bg-vawc-orange-50 dark:bg-vawc-orange-900/30',
+        barColor: 'bg-vawc-orange-600'
     },
     warning: {
         icon: AlertTriangle,
-        iconColor: 'text-vawc-orange-600 dark:text-vawc-orange-400',
-        iconBg: 'bg-vawc-orange-50 dark:bg-vawc-orange-900/20',
-        barColor: 'bg-vawc-orange-500'
+        iconColor: 'text-safety-teal-600 dark:text-safety-teal-400',
+        iconBg: 'bg-safety-teal-50 dark:bg-safety-teal-900/30',
+        barColor: 'bg-safety-teal-600'
     },
     info: {
         icon: Info,
         iconColor: 'text-calm-lavender-600 dark:text-calm-lavender-400',
-        iconBg: 'bg-calm-lavender-50 dark:bg-calm-lavender-900/20',
+        iconBg: 'bg-calm-lavender-50 dark:bg-calm-lavender-900/30',
         barColor: 'bg-calm-lavender-600'
     }
 }
